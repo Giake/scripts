@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 
-DNASeq = 'ATGAAC'
+#the original DNASeq is immediately written over when I give it another meaning
+DNASeq = "ATGAAC"
+DNASeq = raw_input(" Enter a DNA sequence: ")
+DNASeq = DNASeq.upper()
+DNASeq = DNASeq.replace(" ","")
 
 
 

@@ -62,6 +62,10 @@ print ( TotalStrong, TotalWeak)
 #		TotalWeak = TotalWeak + 1
 #print (TotalStrong,TotalWeak)
 
+Counts= dict()
+for Base in Bases:
+	Count = DNASeq.count (Base)
+
 print "Done"
 
 
